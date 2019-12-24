@@ -1,0 +1,16 @@
+main: to.epac.factorycraft.TerrainHousing.Main
+version: 0.0.1
+name: TerrainHousing
+author: i998979
+description: Access your home building wherever you want!
+depend: [WorldEdit]
+api-version: 1.13
+
+commands:
+  terrainhousing:
+    aliases: [th, trh]
+    description: Main command
+permissions:
+  TerrainHousing.Admin:
+    default: op
+    description: Give access to do all /TerrainHousing commands
